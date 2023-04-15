@@ -10,5 +10,6 @@ public abstract class SpartanAuthTestBase {
         //save baseurl inside this variable so that we dont need to type each http method.
         baseURI = "http://54.172.42.26:7000";
 
+
     }
 }
