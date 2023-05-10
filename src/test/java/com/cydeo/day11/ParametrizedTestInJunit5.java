@@ -29,6 +29,7 @@ public class ParametrizedTestInJunit5 {
     // with these zipcodes 22030,22031, 22032, 22033 , 22034, 22035, 22036
     // check status code 200
 
+
     @ParameterizedTest
     @ValueSource(ints = {22030,22031, 22032, 22033 , 22034, 22035, 22036})
     public void zipCodeTest(int zipCode){
